@@ -98,6 +98,27 @@
     <td align="center">✅</td>
     <td align="center">✅</td>
   </tr>
+  <tr>
+    <td align="center">AI知识库</td>
+    <td align="center">✅</td>
+    <td align="center">❌</td>
+    <td align="center">❌</td>
+    <td align="center">❌</td>
+  </tr>
+  <tr>
+    <td align="center">AI工作台</td>
+    <td align="center">✅</td>
+    <td align="center">❌</td>
+    <td align="center">❌</td>
+    <td align="center">❌</td>
+  </tr>
+  <tr>
+    <td align="center">SKILL支持</td>
+    <td align="center">✅</td>
+    <td align="center">❌</td>
+    <td align="center">❌</td>
+    <td align="center">❌</td>
+  </tr>
 </table>
 
 ## 使用方式
@@ -120,7 +141,17 @@
 
 ### 快速安装
 
-安装 53AI Hub 社区版最简单方法是运行我们的 [docker-compose.yml](docker/docker-compose.yaml) 文件。在运行安装命令之前，请确保您的机器上安装了 [Docker](https://docs.docker.com/get-docker/) 和 [Docker Compose](https://docs.docker.com/compose/install/)：
+推荐使用一键安装脚本安装 53AI Hub 社区版：
+
+```bash
+sudo curl -fsSL https://download.53ai.com/install.sh | bash
+```
+
+脚本执行完成后，按照提示完成初始化，然后可以在浏览器上访问 [`http://localhost:3000`](http://localhost:3000) 进入 53AI Hub 并开始初始化配置操作，默认账号通常是`admin@53ai.com` 密码`admin888`。
+
+### 备选安装方式：Docker
+
+如果您更习惯使用 Docker，也可以通过我们的 [docker-compose.yml](docker/docker-compose.yaml) 文件安装。在运行安装命令之前，请确保您的机器上安装了 [Docker](https://docs.docker.com/get-docker/) 和 [Docker Compose](https://docs.docker.com/compose/install/)：
 
 1. 克隆仓库：
 ```bash
@@ -132,8 +163,6 @@ cd 53aihub
 cd docker
 docker compose up -d
 ```
-
-运行后，可以在浏览器上访问 [`http://localhost:3000`](http://localhost:3000) 进入 53AI Hub 并开始初始化配置操作，默认账号通常是`admin@53ai.com` 密码`admin888`。
 
 ### 自定义配置
 
@@ -168,3 +197,16 @@ docker compose up -d
 
 在 GitHub 上给 53AI Hub Star，我们更新产品你将第一时间收到新版本更新的通知。
 
+## 商务合作
+
+联系人：杨先生
+
+📮：hub@53ai.com
+
+📱：18688881185 (非客服电话)
+
+![.jpg](http://kmdev.53ai.com/api/preview/e884dbfe4ab8161ee268011111b900c3.jpg)
+
+> 使用问题咨询，可以在官网首页底部加入用户交流群，也可邮件 hub@53ai.com
+>
+> 如果您需要更多开发和运营指导，可以联系购买商业版本及交付服务
